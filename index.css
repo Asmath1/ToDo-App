@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color:white;
+    display: grid;
+    place-items: center;
+     
+}
+
+.container{
+    max-width: 500px;
+    width:100%;
+    background-color:black;
+    padding: 20px;
+    /* box-shadow:  5px 6px 3px 2px #676769; */
+    background-color: rgb(190, 186, 181);
+    
+}
+h1{
+    text-align: center;
+    color:rgb(10, 10, 10);
+}
+
+.form-container{
+    padding-top: 20px;
+
+}
+
+.form-field{
+    padding: 10px 0;
+    display: grid;
+    
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+.form-field input{
+    height: 40px;
+    /* width:455px; */
+    padding: 10px;
+    border-radius: 7px;
+    background-color:white;
+    color:solid  black;
+    border: solid black 1px;
+    
+}
+
+.submission-section{
+    /* display: grid; */
+    padding-top: 25px;
+}
+
+.submission-section button{
+    height: 40px;
+    background-color:rgb(199, 199, 209);
+    color: rgb(19, 19, 15);
+    font-size: 20px;
+    border: solid white 1px;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.login{
+    padding-top: 10px;
+}
+
+.error-message{
+    color:maroon;
+}
+
+ul {
+    text-align: start;
+    text-align: left;
+    padding-left: 30%;
+    padding: 7%;
+    font-size: 1rem;
+    list-style: circle;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  li:hover{
+    color:red;
+    /* margin: 4%; */
+    /* transition: 1.5s ease; */
+    cursor: pointer;
+  }
+  
